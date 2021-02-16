@@ -314,10 +314,13 @@ $villes_json = json_encode($villes);
                 <?php unset($_SESSION['flash']); ?>
             <?php endif; ?>
             <div class="row">
-                <div class="col-12">
+                <div class="col-6">
                     <h2 class="contact-title">Prendre Contact</h2>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-6">
+                    <h2 class="contact-title text-center">Prise de rendez-vous:</h2>
+                </div>
+                <div class="col-lg-6">
                     <form class="form-contact contact_form" action="technext.github.io/consultingbiz/contact.php"
                           method="post" id="contactForm">
                         <div class="row">
@@ -353,21 +356,10 @@ $villes_json = json_encode($villes);
                 </div>
 
                 <div class="col-lg-3 offset-lg-1">
-                    <h2 class="contact-title text-center">Prise de rendez-vous:</h2>
                     <div class="media contact-info">
                         <div class="media-body">
-                            <h3>1/ Je sélectionne un centre de réparation</h3>
-                            </br>
-                            <h3>2/ J'inscrit mon nom et mes coordonées</h3>
-                            </br>
-                            <h3>3/ Je décrit mon problème</h3>
-                            </br>
-                            <h3>4/ J'envoie mon mail qui sera transmis au centre de gestion</h3>
-                            </br>
-                            <h3>5/ Un centre de réparation me contactera pour prendre rendez-vous</h3>
-
+                          <img class="consigne" src="technext.github.io/consultingbiz/assets/img/gallery/consigne.png">
                         </div>
-
                     </div>
                 </div>
             </div>

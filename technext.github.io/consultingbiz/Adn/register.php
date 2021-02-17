@@ -57,7 +57,7 @@ if(!empty($_POST)){
         //confirmation par email
         mail($_POST['email'],
 'Confirmation de votre compte',
-"Afin de valider votre compte merci de cliquer sur ce lien\n\n http://localhost/GeekGarage/Adn/confirm.php?id=$user_id&token=$token");
+"Afin de valider votre compte merci de cliquer sur ce lien\n\n https://paulinef561.promo-47.codeur.online/Repare_PC_Online/technext.github.io/consultingbiz/Adn/confirm.php?id=$user_id&token=$token");
         $_SESSION['flash']['success'] = 'un email de confirmation vous a été envoyé pour valider votre compte';
         header('location: login.php');
         exit();

@@ -376,6 +376,7 @@ ul {
 /* line 125, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 li {
   list-style: none;
+  font-size: 14px;
 }
 
 /* line 129, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -3572,6 +3573,13 @@ hero-btn {
   background-size: cover;
 }
 
+.slider-area3 {
+  background-image: url(../img/hero/aide.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
@@ -3772,6 +3780,14 @@ hero-btn {
   line-height: 1;
 }
 
+.slider-area3 .hero-cap h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 177, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area2 .hero-cap h2 {
@@ -3921,6 +3937,7 @@ hero-btn {
   position: relative;
   z-index: 1;
   background: #ffff;
+  height: 250px;
 }
 
 @media (max-width: 575px) {

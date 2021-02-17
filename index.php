@@ -87,6 +87,7 @@ $villes_json = json_encode($villes);
                                             <li><a href="#services">Services</a></li>
                                             <li><a href="#about">A propos</a></li>
                                             <li><a href="#contact">Contact</a></li>
+                                            <li><a href="#after">Et après</a></li>
                                             <li><a href="technext.github.io/consultingbiz/Adn/login.php">Se
                                                     connecter</a></li>
                                         </ul>
@@ -140,20 +141,17 @@ $villes_json = json_encode($villes);
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 col-sm-3">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-development"></span>
                         </div>
                         <div class="cat-cap">
                             <h5>Diagnostic </h5>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                                auctor, nisi
-                                elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 col-sm-3">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span>
@@ -162,26 +160,20 @@ $villes_json = json_encode($villes);
                         </div>
                         <div class="cat-cap">
                             <h5>Installation Software</h5>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                                auctor, nisi
-                                elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 col-sm-3">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span class="flaticon-team"></span>
                         </div>
                         <div class="cat-cap">
                             <h5>Maintenance</h5>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                                auctor, nisi
-                                elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 col-sm-3">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
                             <span>
@@ -190,9 +182,6 @@ $villes_json = json_encode($villes);
                         </div>
                         <div class="cat-cap">
                             <h5>Remaster</h5>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                                auctor, nisi
-                                elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         </div>
                     </div>
                 </div>
@@ -218,12 +207,10 @@ $villes_json = json_encode($villes);
                             <h2>Nos meilleurs Prestations</h2>
                         </div>
                         <div class="support-caption">
-                            <p class="pera-top">Mollit anim laborum duis adseu dolor iuyn voluptcate velit ess cillum
-                                dolore egru lofrre dsu quality mollit anim laborumuis au dolor in voluptate velit
-                                cillu.</p>
-                            <p class="mb-65">Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate
-                                velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat
-                                non aute iruxvfg dhjinulpadeserunt moll.</p>
+                            <p class="pera-top">L'environnement de travail est donc stimulant pour les étudiants mais il permet également à l'équipe pédagogique de donner un sens et
+                                une vision concrète des apports théoriques, même si nos formations sont orientées à 90% sur des cas pratiques "pédagogiques".</p>
+                            <p class="mb-65">Nos techniciens informatiques en herbe bénéficient de différents outils et différents logiciels pour pouvoir mener à
+                                bien leur mission. Si vous voulez profiter de ce service, vous avez également à votre disposition un formulaire de contact qui vous permettra d'être mis en relation avec le centre le plus proche.</p>
                         </div>
                     </div>
                 </div>
@@ -251,28 +238,47 @@ $villes_json = json_encode($villes);
     <div class="about-details section-padding30">
         <div class="container">
             <div class="row">
-                <div class="offset-xl-1 col-lg-8">
-                    <div class="about-details-cap mb-50">
-                        <h4>Notre Mission</h4>
-                        <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna
-                            aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor
-                            maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan
-                            lacus.
-                        </p>
-                        <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo
-                            viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                <div class="col-lg-12 mb-125">
+                    <div class="about-details-cap mb-50 justify-content-around">
+                        <h4>Qui sommes nous?</h4>
+                        <p>Dès sa création en 1999, ONLINEFORMAPRO s’est rapidement imposée comme une entreprise innovante dans le domaine de la pédagogie inversée et pédagogie active par projet.</p>
+                        <p> En effet, entre Digital Learning et organisme de formation reconnu, notre culture pédagogique présente dans nos 21 sites en Bourgogne – Franche-Comté,
+                            Grand Est et Rhône-Alpes nous a permis d’accélérer la mutation de la formation via des solutions innovantes et adaptées notamment dans les métiers de l’informatique.</p>
                     </div>
 
-                    <div class="about-details-cap mb-50">
+                    <div class="about-details-cap mb-50 justify-content-around">
                         <h4>Notre Vision</h4>
-                        <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna
-                            aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor
-                            maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan
-                            lacus.
+                        <p>Le projet "REPARE PC" initié par ONLINRFORMAPRO est né de la volonté de faire participer activement nos apprenants sur des cas
+                            concrets de maintenance ou télémaintenance informatique.
                         </p>
-                        <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo
-                            viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                        <p> En effet, comment mieux se préparer au monde du travail et à la réalité du terrain
+                            lorsque l'on est encore en phase d'apprentissage ??!!</p>
+                        <p>Il suffit de proposer ses compétences en informatique gratuitement et intervenir sur des pannes réelles et des besoins
+                            spécifiques émanant de véritables clients (professionnels ou particuliers).</p>
                     </div>
+
+                    <div class="about-details-cap mb-50 justify-content-around">
+                        <h4>Notre Objectif</h4>
+                        <p>En ouvrant nos portes pendant deux après-midi par semaine en tant que centre de diagnostics et de réparations gratuit et accessible au public, notre objectif est de permettre aux apprenants de mettre en avant leurs apprentissages pratiques et théoriques abordés en centre et même de prolonger leurs connaissances
+                            grâce à des compétences clés transverses au métier de technicien informatique :
+                        </p>
+                        <ul>
+                            <li>- Accueil de la clientèle</li>
+                            </br>
+                            <li>- Analyse du besoin</li>
+                            </br>
+                            <li>- Assistance aux utilisateurs</li>
+                            </br>
+                            <li>- Conseils techniques et accompagnement</li>
+                            </br>
+                            <li>- Rédaction des rapports d'intervention</li>
+                            </br>
+                            <li>- Communication avec son équipe et le client dans le respect des bonnes pratiques</li>
+                        </ul>
+                        </br>
+                        <p>Nous avons donc vocation à confronter nos apprenants sur des projets et incidents réels afin qu’ils soient opérationnels à l’issue de leur formation de technicien informatique. Ils pourront également réaliser une intervention à distance si vous
+                            le souhaitez et vous donner toutes les explications nécessaires à la bonne utilisation de votre outil informatique.
+                        </p>
                 </div>
             </div>
         </div>
@@ -313,6 +319,10 @@ $villes_json = json_encode($villes);
                 <?php endforeach; ?>
                 <?php unset($_SESSION['flash']); ?>
             <?php endif; ?>
+            <div class="col-12 text-center pb-5">
+                <h4>Vous avez un problème avec votre matériel informatique ?
+                    Voici comment va se dérouler notre relation…</h4>
+            </div>
             <div class="row">
                 <div class="col-6">
                     <h2 class="contact-title">Prendre Contact</h2>
@@ -365,6 +375,43 @@ $villes_json = json_encode($villes);
             </div>
     </section>
     <!-- ================ contact section end ================= -->
+        <!--? Hero Start -->
+        <div class="slider-area3" id="after">
+            <div class="slider-height2 hero-overly2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 text-center">
+                                <h2>Et après ?</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-details section-padding30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center pb-5">
+                        <h4>Vous êtes une entreprise ou une association qui souhaite se débarrasser de matériels informatiques obsolètes ??!!</h4>
+                    </div>
+
+                    <div class="col-6">
+                        <img class="consigne" src="technext.github.io/consultingbiz/assets/img/gallery/recuperation.jpg">
+                    </div>
+                    <div class="col-6 about-details-cap pt-5">
+                        <h4>Pour la bonne cause</h4>
+                        <p>Toujours dans cet esprit et cette volonté de faire participer activement nos apprenants sur des cas concrets de maintenance ou
+                            télémaintenance informatique, « REPARE PC » vous propose de récupérer ce type de matériel. En effet, plutôt que de faire appel à une entreprise de recyclage,
+                            nos apprenants proposent de reconditionner votre ancien matériel pour les redistribuer à des familles dans le besoin ou à des associations d'aide à l'emploi.
+                        </p>
+                        <img class="eco mx-5" src="technext.github.io/consultingbiz/assets/img/gallery/ecolog.jpg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 </main>
 <footer>

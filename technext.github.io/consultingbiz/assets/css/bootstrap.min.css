@@ -1590,7 +1590,8 @@ pre code {
     }
 
     .offset-xl-1 {
-        margin-left: 8.333333%
+        margin-left: 8.333333%;
+        margin-bottom: 10% !important;
     }
 
     .offset-xl-2 {
@@ -5062,6 +5063,10 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 img.consigne {
     width: 550px !important;
+}
+
+img.eco {
+    width: 300px !important;
 }
 
 .list-group {

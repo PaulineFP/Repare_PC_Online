@@ -3585,7 +3585,7 @@ hero-btn {
   margin-top: -1px;
   background-image: url(../img/hero/h1_hero.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 100% center;
   background-size: cover;
 }
 

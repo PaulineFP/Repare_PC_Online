@@ -1,0 +1,40 @@
+
+@mixin flex_center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin box_shadow {
+    box-shadow:  -10px 5px 5px rgba(0, 0, 0, .5);
+}
+
+@mixin p {
+    color: $white_eyes;
+    font-size:20px;
+    font-family: Calibri;
+}
+/*-----------------------*/
+
+.about {
+@include flex_center();
+position: relative;
+padding-bottom: 5em;
+.aboutC{
+    display: flex;
+    flex-direction: row-reverse;
+    img {
+        @include box_shadow();
+        width: 65vw;
+        border-radius: 2em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+     p {
+        @include p();
+        position: absolute;
+        text-align: justify;
+        margin-top: 2em;
+        padding-right: 3em;
+    }
+}
+}
